@@ -1,0 +1,66 @@
+.CardItem {
+    width: 250px;
+    padding: 30px;
+    margin: 30px;
+    font-size: 10px;
+    background-color:rgba(236,239,241,255);
+    border: 1px solid rgb(231, 223, 223);
+    border-radius: 3px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.Header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+.ItemHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.Info {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.ItemImg {
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.ItemFooter {
+    display: flex;
+    justify-content: center;
+}
+
+.ItemFooter .Option {
+    width: auto;
+    padding: 12px;
+    font-size: 15px;
+    background: rgb(230, 20, 20);
+    border-radius: 5px;
+    flex: none;
+    display: flex;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: solid black 1px;
+    cursor: pointer;
+    outline: inherit;
+}
+.ItemFooter .Option:hover {
+    background: black;
+    color: #fffdfd;
+} 

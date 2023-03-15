@@ -1,0 +1,31 @@
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;    
+    
+}
+.form-horizontal{
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.btn {
+    color: white;
+
+}
+
+.boton{
+    padding-top: 20px;
+}
+

@@ -1,0 +1,72 @@
+.NavBar {
+    display: flex;
+    background: transparent;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background: rgba(16, 9, 9, 0.45);
+    font-family: 'Russo One', sans-serif;    
+    text-decoration: none;
+    margin-bottom: 30px;
+
+}
+.NavBar h3 {
+    font-size: 25px;
+}
+.NavBar span {
+    font-size: 18px;
+    color: white;
+}
+
+.Categories {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+
+.Option {
+    text-decoration: none;
+    border-radius: 25;
+    margin: 0 50px;    
+    width: auto;
+    padding: 12px;
+    font-size: 15px;
+    background: #ffffff;
+    border-radius: 4px;
+    flex: none;
+    display: flex;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border: none;
+    border-style: none;
+}
+
+.ActiveOption {
+    text-decoration: none;
+    border-radius: 25;
+    margin: 0 50px;    
+    width: auto;
+    padding: 12px;
+    font-size: 15px;
+    background:rgb(44, 34, 34);
+    border-radius: 8px;
+    flex: none;
+    display: flex;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: none;
+    border-style: none;
+    cursor: pointer;
+    outline: inherit;
+}
+
